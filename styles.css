@@ -1,5 +1,9 @@
 body {
   background-color: aliceblue;
+  text-align: center;
+}
+ul {
+  padding-left: 0px;
 }
 #today {
   width: 200px;
@@ -13,4 +17,8 @@ img,
 .nav {
   margin: 0px;
   color: blueviolet;
+}
+footer,
+header {
+  text-align: center;
 }
