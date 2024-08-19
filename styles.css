@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+#today {
+  width: 200px;
+  height: 200px;
+}
+img,
+.fiveday {
+  width: 150px;
+  height: 150px;
+}
+.nav {
+  margin: 0px;
+  color: blueviolet;
+}
