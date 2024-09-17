@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
+    <title>Weather App V2</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -13,79 +13,64 @@
     <nav>
       <ul>
         <li>
-          <a target="_self" href="../Weather-App/index.html">Home</a>
+          <a target="_self" href="./index.html">Home</a>
         </li>
         <li>
-          <a target="_self" href="../Weather-App/news.html">News</a>
+          <a target="_self" href="./news.html">News</a>
         </li>
         <li>
           <p class="nav"><ins>Weather</ins></p>
         </li>
         <li>
-          <a target="_self" href="../Weather-App/about.html">About</a>
+          <a target="_self" href="./about.html">About</a>
         </li>
       </ul>
     </nav>
     <main>
-      <h2>Weather Summary</h2>
-      <h3>Salt Lake City</h3>
-      <p>Currently: partly cloudy</p>
-      <p>Tempature: 93 °F</p>
-      <p>Feels like: 90 °F</p>
-      <p>Humidity: 25%</p>
-      <p>Wind Speed: N 8 mph</p>
+      <section id="today-text">
+        <h2>Weather Summary</h2>
+        <h3>Salt Lake City</h3>
+        <p>Currently: partly cloudy</p>
+        <p>Tempature: 93 °F</p>
+        <p>Feels like: 90 °F</p>
+        <p>Humidity: 25%</p>
+        <p>Wind Speed: N 8 mph</p>
+      </section>
       <figure>
-        <img
-          src="../Weather-App/weather/partlyCloudy.jpg"
-          alt="partlyCloudy"
-          id="today"
-        />
+        <img src="./weather/partlyCloudy.jpg" alt="partlyCloudy" id="today" />
       </figure>
-      <h2>5-Day Weather Forcast</h2>
+      <h2 class="five-day-text">5-Day Weather Forcast</h2>
       <figure>
-        <img
-          src="../Weather-App/weather/Umbrella.jpg"
-          alt="rainy"
-          class="fiveday"
-        />
-        <figcaption>Day 1</figcaption>
-        <p>105 °F</p>
+        <img src="./weather/Umbrella.jpg" alt="rainy" class="fiveday" />
+        <p class="five-day-text">Day 1 | 105 °F</p>
+      </figure>
+      <figure>
+        <img src="./weather/Sunny.jpg" alt="sunny" class="fiveday" />
+        <p class="five-day-text">Day 2 | 103 °F</p>
       </figure>
       <figure>
         <img
-          src="../Weather-App/weather/Sunny.jpg"
-          alt="sunny"
-          class="fiveday"
-        />
-        <figcaption>Day 2</figcaption>
-        <p>103 °F</p>
-      </figure>
-      <figure>
-        <img
-          src="../Weather-App/weather/partlyCloudy.jpg"
+          src="./weather/partlyCloudy.jpg"
           alt="partlyCloudy"
           class="fiveday"
         />
-        <figcaption>Day 3</figcaption>
-        <p>102 °F</p>
+        <p class="five-day-text">Day 3 | 102 °F</p>
       </figure>
       <figure>
         <img
-          src="../Weather-App/weather/thunderStorms.jpg"
+          src="./weather/thunderStorms.jpg"
           alt="thunderStorms"
           class="fiveday"
         />
-        <figcaption>Day 4</figcaption>
-        <p>95 °F</p>
+        <p class="five-day-text">Day 4 | 95 °F</p>
       </figure>
       <figure>
         <img
-          src="../Weather-App/weather/partlyCloudy.jpg"
+          src="./weather/partlyCloudy.jpg"
           alt="partlyCloudy"
           class="fiveday"
         />
-        <figcaption>Day 5</figcaption>
-        <p>102 °F</p>
+        <p class="five-day-text">Day 5 | 102 °F</p>
       </figure>
     </main>
     <footer>
